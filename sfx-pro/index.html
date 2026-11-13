@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SFX.prop – Internetbasierte Dienstleistungen auf Honorar- und Provisionsbasis. Ansprechpartner: Stefan Jahrmärker.">
+  <meta name="theme-color" content="#0e1726">
+  <title>SFX.prop | Online-Dienstleistungen – Stefan Jahrmärker</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1320; --surface:#132034; --ink:#f6f8fc; --muted:#b3c1d4; --accent:#79ddd1; --border:#293b52; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: radial-gradient(circle at 90% 0%, #183b48 0%, transparent 38%), var(--bg); color:var(--ink); font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color: var(--accent); }
+    .wrap { width: min(1040px, calc(100% - 40px)); margin-inline: auto; }
+    header { border-bottom: 1px solid var(--border); }
+    header .wrap { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-block:22px; }
+    .brand { font-size: 1.25rem; font-weight:800; letter-spacing:-.03em; color:var(--ink); text-decoration:none; }
+    .brand span { color:var(--accent); }
+    nav a { margin-left:22px; color:var(--muted); text-decoration:none; }
+    nav a:hover, nav a:focus-visible { color:var(--ink); }
+    main { padding-block: 76px 86px; }
+    .eyebrow { font-size:.82rem; font-weight:800; text-transform:uppercase; color:var(--accent); letter-spacing:.14em; }
+    h1 { font-size:clamp(2.2rem, 5.5vw, 4.6rem); line-height:1.09; max-width:820px; letter-spacing:-.045em; margin:18px 0 24px; }
+    h2 { font-size:clamp(1.4rem, 3vw, 2rem); letter-spacing:-.025em; margin:0 0 14px; }
+    .lead { font-size:clamp(1.05rem, 2.1vw, 1.3rem); color:var(--muted); max-width:740px; margin:0 0 34px; }
+    .button { display:inline-block; background:var(--accent); color:#08151d; padding:12px 20px; border-radius:9px; font-weight:800; text-decoration:none; }
+    .button:hover, .button:focus-visible { background:#a1eee4; }
+    .section { margin-top:86px; }
+    .cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:25px; }
+    .card { border:1px solid var(--border); background:var(--surface); border-radius:14px; padding:25px; }
+    .card h3 { margin:0 0 8px; font-size:1.03rem; }
+    .card p { margin:0; color:var(--muted); font-size:.96rem; }
+    .info { background:rgba(19,32,52,.8); border:1px solid var(--border); border-radius:14px; padding:30px; }
+    .info p { color:var(--muted); margin:8px 0; }
+    .info strong { color:var(--ink); }
+    footer { border-top:1px solid var(--border); padding-block:28px; color:var(--muted); font-size:.9rem; }
+    footer .wrap { display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; }
+    @media (max-width:640px) { header .wrap { align-items:flex-start; flex-direction:column; } nav a { margin-left:0; margin-right:19px; } main { padding-block:48px 60px; } .section { margin-top:54px; } .cards { grid-template-columns:1fr; } .info { padding:22px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="SFX.prop Startseite">SFX<span>.</span>prop</a>
+      <nav aria-label="Navigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ueber">Über mich</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section aria-labelledby="titel">
+      <div class="eyebrow">Selbstständige Online-Dienstleistungen</div>
+      <h1 id="titel">Internetbasierte Dienstleistungen auf Honorar- und Provisionsbasis.</h1>
+      <p class="lead">SFX.prop ist die geschäftliche Online-Präsenz von Stefan Jahrmärker. Hier finden Interessierte Informationen zur Zusammenarbeit und eine direkte Kontaktmöglichkeit.</p>
+      <a class="button" href="mailto:stefan.jahrmaerker@gmail.com?subject=Anfrage%20an%20SFX.prop">Geschäftliche Anfrage senden</a>
+    </section>
+    <section class="section" id="leistungen" aria-labelledby="leistungen-titel">
+      <h2 id="leistungen-titel">Zusammenarbeit und Leistungen</h2>
+      <p class="lead">Die Tätigkeit umfasst internetbasierte Dienstleistungen, die auftragsbezogen vereinbart und digital organisiert werden. Konkrete Leistungen, Umfang und Konditionen werden individuell abgestimmt.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Internetbasierte Aufträge</h3>
+          <p>Projektbezogene digitale Leistungen nach individueller Absprache und klar definiertem Auftrag.</p>
+        </article>
+        <article class="card">
+          <h3>Honorarvereinbarungen</h3>
+          <p>Vergütung für vereinbarte Leistungen auf Honorarbasis, entsprechend dem jeweiligen Leistungsumfang.</p>
+        </article>
+        <article class="card">
+          <h3>Provisionsvereinbarungen</h3>
+          <p>Bei geeigneten Aufträgen erfolgsbezogene Vergütung auf Grundlage einer individuellen Vereinbarung.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section" id="ueber" aria-labelledby="ueber-titel">
+      <h2 id="ueber-titel">Ansprechpartner</h2>
+      <div class="info">
+        <p><strong>Name:</strong> Stefan Jahrmärker</p>
+        <p><strong>Geschäftliche Bezeichnung:</strong> SFX.prop</p>
+        <p><strong>Tätigkeit:</strong> Internetbasierte Dienstleistungen auf Honorar- und Provisionsbasis</p>
+        <p><strong>Kontakt:</strong> <a href="mailto:stefan.jahrmaerker@gmail.com">stefan.jahrmaerker@gmail.com</a></p>
+      </div>
+    </section>
+    <section class="section" id="kontakt" aria-labelledby="kontakt-titel">
+      <h2 id="kontakt-titel">Kontakt für geschäftliche Anfragen</h2>
+      <p class="lead">Anfragen zu Aufträgen, Kooperationen und Konditionen bitte direkt per E-Mail senden.</p>
+      <a class="button" href="mailto:stefan.jahrmaerker@gmail.com?subject=Geschaeftliche%20Anfrage">E-Mail schreiben</a>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>© 2026 SFX.prop · Stefan Jahrmärker</span>
+      <span>Kontakt: <a href="mailto:stefan.jahrmaerker@gmail.com">stefan.jahrmaerker@gmail.com</a></span>
+    </div>
+  </footer>
+</body>
+</html>
